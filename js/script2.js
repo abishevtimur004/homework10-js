@@ -38,3 +38,18 @@ section.appendChild(h2);
 section.appendChild(p);
 
 main.prepend(section);
+
+//--------------------------------------
+
+const info = document.getElementById('info');
+
+const firstParagraph = infoSection.querySelector('p');
+
+infoSection.removeChild(firstParagraph);
+
+
+//--------------------------------------
+
+const footer = document.getElementById('footer');
+
+footer.innerHTML = '';
